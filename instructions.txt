@@ -1,0 +1,42 @@
+## ▶️ Instructions to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository_link>
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd smart-analytics-tool
+```
+
+### 3. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+### 5. Open in Browser
+
+After running the above command, Streamlit will automatically open the application in your default browser.
+
+### 6. Upload a CSV File
+
+* Click on **Upload CSV File**
+* Select any CSV dataset (e.g., Titanic Dataset)
+* Explore the dataset preview, missing values, statistical summary, and interactive visualizations.
+
+### Requirements
+
+* Python 3.x
+* Streamlit
+* Pandas
+* Plotly
